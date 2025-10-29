@@ -1,6 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Rocket, LogOut } from "lucide-react";
+import avaliaHubLogo from "../img/avalia-hub.png";
 
 interface NavbarProps {
   isAuthenticated?: boolean;
@@ -23,8 +24,8 @@ export const Navbar = ({ isAuthenticated, userRole, onLogout }: NavbarProps) => 
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 text-2xl font-bold text-primary">
-            <Rocket className="h-8 w-8" />
-            StartupHub
+            <img src={avaliaHubLogo} alt="AvaliaHub" width={200} />
+            
           </Link>
 
           <div className="flex items-center gap-4">
