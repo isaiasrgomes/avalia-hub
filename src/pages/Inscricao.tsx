@@ -47,7 +47,7 @@ export const Inscricao = () => {
     e.preventDefault();
     
     // Verificar prazo (simular)
-    const prazo = new Date("2025-02-28");
+    const prazo = new Date("2025-11-28");
     const hoje = new Date();
     
     if (hoje > prazo) {
