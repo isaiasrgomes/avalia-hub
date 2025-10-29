@@ -64,6 +64,10 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             {/* Rotas Públicas */}
+
+          <Route path={import.meta.env.BASE_URL} element={<Home />} />
+          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="*" element={<NotFound />} />
             <Route path="/" element={<Home />} />
             <Route path="/inscricao" element={<Inscricao />} />
             <Route path="/login" element={<Login onLogin={handleLogin} />} />
