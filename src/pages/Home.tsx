@@ -113,15 +113,15 @@ export const Home = () => {
                 <CardContent className="space-y-3">
                   <div className="flex justify-between items-center py-2 border-b">
                     <span className="font-medium">Inscrições</span>
-                    <span className="text-muted-foreground">Até 28/02/2025</span>
+                    <span className="text-muted-foreground">Até 28/11/2025</span>
                   </div>
                   <div className="flex justify-between items-center py-2 border-b">
                     <span className="font-medium">Avaliação</span>
-                    <span className="text-muted-foreground">01/03 - 15/03</span>
+                    <span className="text-muted-foreground">01/12 - 15/12</span>
                   </div>
                   <div className="flex justify-between items-center py-2">
                     <span className="font-medium">Resultados</span>
-                    <span className="text-muted-foreground">20/03/2025</span>
+                    <span className="text-muted-foreground">20/12/2025</span>
                   </div>
                 </CardContent>
               </Card>
